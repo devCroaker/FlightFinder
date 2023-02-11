@@ -1,0 +1,32 @@
+export type FlightTableData = {
+  airline_name: string,
+  airline_icao: string,
+  flight_number: string,
+  flight_icao: string,
+  dep_airport_name: string,
+  dep_airport_icao: string,
+  arr_airport_name: string,
+  arr_airport_icao: string,
+  dep_time: Date,
+  arr_time: Date,
+  duration: number,
+}
+
+export type MyFlightTableData = {
+  airline_name: string,
+  airline_icao: string,
+  flight_number: string,
+  flight_icao: string,
+  dep_airport_name: string,
+  dep_airport_icao: string,
+  arr_airport_name: string,
+  arr_airport_icao: string,
+  dep_time: Date,
+  arr_time: Date,
+  duration: number,
+  dep_gate: string,
+  arr_gate: string,
+  arr_baggage: string,
+  status: string,
+  delayed: number,
+}
